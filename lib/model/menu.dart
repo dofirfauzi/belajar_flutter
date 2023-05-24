@@ -20,4 +20,5 @@ var menus = [
   Menu(name: 'Belajar Image Widget', page: const ImageWidget()),
   Menu(name: 'Belajar Statefull Widget', page: const BelajarStateFull()),
   Menu(name: 'Belajar Mapping List', page: const Map()),
+  Menu(name: 'Belajar Tap Bar Widget', page: const TabBarWidget()),
 ];
