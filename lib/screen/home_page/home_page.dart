@@ -3,6 +3,7 @@ import '../text/text_widget.dart';
 import '../column_row_stack/column_row_stack.dart';
 import '../image_widget/image_widget.dart';
 import '../statefull_widget/statefull_widget.dart';
+import '../map/map.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -65,7 +66,15 @@ class HomePage extends StatelessWidget {
               ));
             },
             child: const Text('Belajar Statefull Widget'),
-          )
+          ),
+          OutlinedButton(
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                return const Map();
+              }));
+            },
+            child: const Text('Belajar mapping List'),
+          ),
         ],
       ),
     );
