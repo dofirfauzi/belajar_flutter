@@ -1,6 +1,7 @@
 import '../hello_world/hello_world.dart';
 import '../text/text_widget.dart';
 import '../column_row_stack/column_row_stack.dart';
+import '../image_widget/image_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -45,6 +46,14 @@ class HomePage extends StatelessWidget {
             style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(Colors.red)),
             child: const Text('Column Row dan Stack'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                return const ImageWidget();
+              }));
+            },
+            child: const Text('Belajar Image Widget'),
           )
         ],
       ),
