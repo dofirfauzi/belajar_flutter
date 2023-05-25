@@ -22,4 +22,5 @@ var menus = [
   Menu(name: 'Belajar Mapping List', page: const Map()),
   Menu(name: 'Belajar Tap Bar Widget', page: const TabBarWidget()),
   Menu(name: 'Belajar Text Field Widget', page: const TextFieldWidget()),
+  Menu(name: 'Belajar Dialog Widget', page: const DialogWidget()),
 ];
