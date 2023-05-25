@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class DialogWidget extends StatelessWidget {
   const DialogWidget({super.key});
 
+  static String routeName = 'belajar_dialog_widget';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

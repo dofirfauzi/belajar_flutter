@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class HelloWorld extends StatelessWidget {
   const HelloWorld({super.key});
 
+  static String routeName = '/hello_world';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

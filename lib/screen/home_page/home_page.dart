@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
+  static String routeName = '/';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,9 +22,7 @@ class HomePage extends StatelessWidget {
         children: menus.map((menu) {
           return ElevatedButton(
             onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                return menu.page;
-              }));
+              Navigator.of(context).pushNamed(menu.page);
             },
             child: Text(menu.name),
           );

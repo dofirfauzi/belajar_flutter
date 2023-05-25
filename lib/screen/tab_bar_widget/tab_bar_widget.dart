@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class TabBarWidget extends StatelessWidget {
   const TabBarWidget({super.key});
 
+  static String routeName = 'belajar_tap_bar';
+
   final List<Tab> myTab = const [
     Tab(
       text: 'tab1',

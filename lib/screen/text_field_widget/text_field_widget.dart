@@ -4,6 +4,8 @@ import '../../model/todo.dart';
 class TextFieldWidget extends StatefulWidget {
   const TextFieldWidget({super.key});
 
+  static String routeName = 'belajar_text_field';
+
   @override
   State<TextFieldWidget> createState() => _TextFieldWidgetState();
 }

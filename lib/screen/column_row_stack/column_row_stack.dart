@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class ColRowStack extends StatelessWidget {
   const ColRowStack({super.key});
 
+  static String routeName = 'column_row_dan_stack';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

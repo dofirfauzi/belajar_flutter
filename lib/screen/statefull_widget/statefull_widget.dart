@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class BelajarStateFull extends StatefulWidget {
   const BelajarStateFull({super.key});
 
+  static String routeName = 'belajar_statefull';
+
   @override
   State<BelajarStateFull> createState() => _BelajarStateFullState();
 }

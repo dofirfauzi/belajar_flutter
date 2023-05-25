@@ -1,3 +1,4 @@
+import 'routes.dart';
 import 'package:flutter/material.dart';
 import 'screen/home_page/home_page.dart';
 
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Belajar Flutter',
-      home: HomePage(),
+      initialRoute: HomePage.routeName,
+      routes: routes,
     );
   }
 }

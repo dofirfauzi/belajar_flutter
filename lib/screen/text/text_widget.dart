@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget {
   const TextWidget({super.key});
+  static String routeName = 'belajar_text_widget';
 
   @override
   Widget build(BuildContext context) {

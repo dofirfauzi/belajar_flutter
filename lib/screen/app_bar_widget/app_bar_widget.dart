@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({super.key});
 
+  static String routeName = 'belajar_app_bar';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

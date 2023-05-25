@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../model/mahasiswa.dart';
 
-class Map extends StatelessWidget {
-  const Map({super.key});
+class BelajarMap extends StatelessWidget {
+  const BelajarMap({super.key});
+
+  static String routeName = 'belajar_map';
 
   @override
   Widget build(BuildContext context) {
