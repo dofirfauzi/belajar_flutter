@@ -14,4 +14,5 @@ final Map<String, WidgetBuilder> routes = {
   TextFieldWidget.routeName: (context) => const TextFieldWidget(),
   DialogWidget.routeName: (context) => const DialogWidget(),
   BelajarNavigation.routeName: (context) => const BelajarNavigation(),
+  SwitchWidget.routeName: (context) => const SwitchWidget(),
 };
