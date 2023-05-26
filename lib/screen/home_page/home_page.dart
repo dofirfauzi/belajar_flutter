@@ -1,3 +1,4 @@
+import '../../components/sidebar_menu.dart';
 import '../../model/menu.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,20 @@ class HomePage extends StatelessWidget {
         ),
         backgroundColor: Colors.amber,
         elevation: 0,
+        actions: [
+          Builder(builder: (context) {
+            return IconButton(
+                onPressed: () {
+                  Scaffold.of(context).openEndDrawer();
+                },
+                icon: const CircleAvatar(
+                  child: Icon(Icons.person),
+                ));
+          })
+        ],
       ),
+      drawer: const SideBarMenu(),
+      endDrawer: const Drawer(),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: menus.map((menu) {
