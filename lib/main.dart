@@ -13,6 +13,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Roboto',
+        primarySwatch: Colors.amber,
+        appBarTheme: const AppBarTheme(
+          elevation: 0,
+        ),
+        elevatedButtonTheme: const ElevatedButtonThemeData(
+          style: ButtonStyle(elevation: MaterialStatePropertyAll(0)),
+        ),
+      ),
       title: 'Belajar Flutter',
       initialRoute: HomePage.routeName,
       routes: routes,
