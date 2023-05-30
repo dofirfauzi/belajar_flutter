@@ -23,4 +23,5 @@ var menus = [
   Menu(name: 'Belajar Dialog Widget', page: DialogWidget.routeName),
   Menu(name: 'Belajar Navigation', page: BelajarNavigation.routeName),
   Menu(name: 'Belajar Switch Widget', page: SwitchWidget.routeName),
+  Menu(name: 'Belajar Layout Builder', page: BelajarLayoutBuilder.routeName),
 ];
