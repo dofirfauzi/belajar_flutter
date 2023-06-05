@@ -12,3 +12,4 @@ export './dialog_widget/dialog_widget.dart';
 export './navigation/navigation.dart';
 export './switch_widget/switch_widget.dart';
 export './layout_builder/layout_builder.dart';
+export './belajar_grid_widget/belajar_grid_widget.dart';

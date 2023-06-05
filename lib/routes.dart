@@ -16,4 +16,5 @@ final Map<String, WidgetBuilder> routes = {
   BelajarNavigation.routeName: (context) => const BelajarNavigation(),
   SwitchWidget.routeName: (context) => const SwitchWidget(),
   BelajarLayoutBuilder.routeName: (context) => const BelajarLayoutBuilder(),
+  BelajarGridWidget.routeName: (context) => const BelajarGridWidget(),
 };
