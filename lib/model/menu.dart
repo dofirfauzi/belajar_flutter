@@ -25,4 +25,5 @@ var menus = [
   Menu(name: 'Belajar Switch Widget', page: SwitchWidget.routeName),
   Menu(name: 'Belajar Layout Builder', page: BelajarLayoutBuilder.routeName),
   Menu(name: 'Belajar Grid Widget', page: BelajarGridWidget.routeName),
+  Menu(name: 'Belajar Media Slider', page: BelajarMediaSlider.routeName),
 ];
